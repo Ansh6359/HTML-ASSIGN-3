@@ -1,0 +1,53 @@
+<!DOCTYPE html>           <!--the dock type  -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>MY MOVIE POSTER </title>
+    <link rel="stylesheet" href="movie1.css"> <!--this is the link of  css file-->
+    <style>
+        /* here I used body tag to put background image */
+        body {
+            background-color: #3d3d3d;
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            height: 100vh;
+            font-family: 'Lato';
+        }
+    </style>
+    <link rel="stylesheet" href="movie1.css">   <!--the link of css file -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <img src="./prabhas-poster-baahubali-the-beginning-2015-2JE359T.jpg" alt="">   <!--link of photo -->
+            <div class="descriptions">
+                <h1>Bahubali</h1>       <!--the title of my movie which define by h1 -->
+                <p>
+                    Baahubali is a two-part Indian epic film directed by S.S. Rajamouli. The first part, titled
+                    "Baahubali: The Beginning", was released in 2015, while the second part, titled "Baahubali: The
+                    Conclusion", was released in 2017. The film is set in a fictional ancient kingdom called Mahishmati
+                    and revolves around the rivalry between two brothers, Baahubali and Bhallaladeva, for the throne of
+                    the kingdom.
+
+                    The film features an ensemble cast including Prabhas, Rana Daggubati, Anushka Shetty, Tamannaah,
+                    Ramya Krishnan, and Sathyaraj in prominent roles. The film is known for its grand visual effects and
+                    cinematography, with the battle scenes and action sequences being particularly praised.
+                </p>
+                <button>
+                    <i class="fab fa-youtube"></i> <!--plsy button for traileor -->
+                    Play the trailer
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+           
+</html>     <!-- the closing of html tag-->
